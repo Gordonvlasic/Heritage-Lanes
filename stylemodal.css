@@ -1,0 +1,90 @@
+body, html{
+    margin: 0 auto;
+    padding: 0%;
+}
+.Modal{
+    background-color: #016FB9;
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+.ModalContent{
+    z-index: 1;
+    background-color: #016FB9;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 45%; 
+}
+.HeaderText{
+    display: flex;
+    line-height: 50px;
+    padding-right: 7rem;
+    text-align: center;
+}
+.ModalTopbar{
+    display: flex;
+    justify-content: space-between;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .ModalTextContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ModalBlurb{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ModalInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ModalInputBoxes{
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .SubmitButton{
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    background-color: #CB435B;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    color: white;
+  }
+  #buttons{
+    padding-top: 2rem;
+  }
+  .BigButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }

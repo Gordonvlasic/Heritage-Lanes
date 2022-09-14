@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleheaderfooter.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="stylemodal.css">
+    <script src="script.js"></script>
+    <title>Heritage Lanes</title>
+    <link rel="icon" type="image/x-icon" href="Media/FaviconLogo.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="NavigationElements" id="navigateElements">
+            <ul class=""><a href="index.html"><img src="Media/HeritageHeader.png"></a></ul>
+            <ul id="HeaderHeritage" class=""><a href="index.html">Heritage Lanes</a></ul>
+            <div class="listpop" id="listPop">
+                <ul class="navElementsMobile"><a href="activities.html" class="padding">Activities</a></ul>
+                <ul class="navElementsMobile"><a href="leagues.html" class="padding">Leagues</a></ul>
+                <ul class="navElementsMobile"><a href="menu.html" class="padding">Menu</a></ul>
+                <ul class="navElementsMobile"><a href="proShop.html" class="padding">Shop</a></ul>
+                <ul id="HeaderNumber" class="navElementsMobile">(519) 631-8500</ul>
+            </div>
+            <ul class="MenuPopout"><a href="javascript:void(0);" input type="image" onclick="MenuDropDown()"><img src="Media/MenuDropDown.png"></a></ul>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="LeaguesMainPhoto">
+        <img src="Media/LeaguesPictureHeader.png">
+    </div>
+
+    <div class="LeaguesIntro">
+        
+        <h2 class="IntroHeader">Feeling social? There's something for everyone</h2> 
+
+        <p class="IntroParagraph">Leagues are a fun way to get involved with the community. Whether you are looking for a competitive setting, or one that just is relaxed and fun,
+            we have a league for you. Have a look below!
+        </p>
+
+    </div>
+
+    <div class="LeagueCard">
+
+        <div class="LeagueName">
+            Mixed Fun League<br>
+            <p>Monday</p>
+        </div>
+        <div class="LeagueDescription">
+            <div class="LeagueDescr">
+                A non-sanctioned league for new bowlers and those looking to meet people while having a great time! 
+                Price includes a banquet and end-of-year prizes!
+                <br>
+                <p class="LeagueTimes">Monday, 6:30 PM, Cost $16.00/Week. 30 Weeks</p>
+            </div>
+        </div>
+        <div class="SignUp">
+            <a href="mailto:info@heritagelanes.ca?subject=Mixed Fun League Signup&body=Hello, I am interested in signing up for the Mixed Fun League">
+                <button class="SignUpButton">Sign Up
+            </button></a></div>
+    </div>
+
+    <div class="LeagueCard">
+
+        <div class="LeagueName">
+            Mens Classic<br>
+            <p>Wednesday</p>
+        </div>
+        <div class="LeagueDescription">
+            <div class="LeagueDescr">
+                A Sanctioned league for mid to higher skill set bowlers. This group will travel to some tournaments in the province. 
+                Includes fun nights & cash prizes.
+                <br>
+                <p class="LeagueTimes">Wednesdays 7:00 PM, Cost $22.00 / Week. 30 Weeks</p>
+            </div>
+        </div>
+        <div class="SignUp">
+            <a href="mailto:info@heritagelanes.ca?subject=Men's Classic League Signup&body=Hello, I am interested in signing up for the Men's Classic League">
+            <button class="SignUpButton">Sign Up
+            </button></a></div>
+    </div>
+
+    <div class="LeagueCard">
+
+        <div class="LeagueName">
+            Ladies Classic<br>
+            <p>Thursday</p>
+        </div>
+        <div class="LeagueDescription">
+            <div class="LeagueDescr">
+                A sanctioned league for mid to higher skill set bowlers. This group will travel to some tournaments in the province. 
+                Includes fun nights & cash prizes.
+                <br>
+                <p class="LeagueTimes">Thursdays 7:00 PM, Cost $22.00 / Week. 30 Weeks</p>
+            </div>
+        </div>
+        <div class="SignUp">
+            <a href="mailto:info@heritagelanes.ca?subject=Ladies Classic League Signup&body=Hello, I am interested in signing up for the Ladies Classic League"><button class="SignUpButton">Sign Up
+            </button></a></div>
+    </div>
+
+
+    <div class="HeritageLanesYouthHeader"><h2>Heritage Lanes<br><br>Youth League</h2></div>
+
+    <div class="YouthLeagueMissionStatement">To give children and families in our area an opportunity to be involved in a cost-effective team sport, 
+        to provide them with the best possible equiptment and facilities, and to teach them sportsmanship, discipline, dedication and friendship 
+        that will follow them through life.
+    </div>
+
+    <div class="LeagueCard">
+
+        <div class="LeagueName">
+            Junior Bowling<br>
+            <p>Saturday</p>
+        </div>
+        <div class="LeagueDescription">
+            <div class="LeagueDescr">
+                individuals between the ages of 4-21 are eligible for this league. It includes a full package of supervised practice, coaching,
+                discounted play rates, awards, tournaments & custom Heritage Lanes jersey's. Check more info for pricing and full details.
+                <br>
+                <p class="LeagueTimes">Monday, 6:30 PM, Cost $16.00/Week. 30 Weeks</p>
+            </div>
+        </div>
+        <div class="SignUp">
+            <button class="SignUpButton" id="MoreInfoButton" onclick="MoreInfo()">More Info
+
+            </button></div>
+    </div>
+
+    <div class="Modal" id="myModal">
+        <div class="ModalContent">
+            
+            <div class="ModalTopbar">
+                <div><img src="Media/LogoModal.png"></div>
+    
+                <div>
+                    <h2 class="HeaderText">Heritage Lanes<br>Youth League</h2>
+                </div>
+    
+                <div><input type="image" src="Media/X.png" onclick="KillModal()"></div>
+    
+    
+            </div>
+            <div class="ModalTextContent">
+                <h4><u>Includes</u></h4>
+                <br>
+                <p class="ModalBlurb">Coaching for everyone, free "supervised" weekly practice sessions,
+                    Discount open play rates for all league members, awards program for 
+                    bowler achievements, tournaments, custom heritage lane jersey's, and much more!
+                </p>
+    
+                <p>$35.00 for registration</p>
+                <p>$15.00 per week for regular bowlers</p>
+                <p>$10.00 per week for bumper bowlers</p>
+            </div>
+    
+            <div>
+                <form action="mailto:info@heritagelanes.ca?subject=Sign Up For Youth League?body=Hello, I am interested in signing up for the youth league!" method="post" enctype="text/plain">
+                    <div class="ModalInputs">
+                        <div class="ModalInputBoxes">
+                            Name:
+                            <input type="text" name="Name">
+                        </div>
+    
+                        <div class="ModalInputBoxes">
+                            Email:
+                            <input type="email" name="Email" required>
+                        </div>
+    
+                        <div class="ModalInputBoxes">
+                            Phone:
+                            <input type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" name="Phonenumber" required>
+                        </div>
+    
+                        <div class="BigButtons">
+                            <div class="ModalInputBoxes" id="buttons">
+                                <a><button class="SubmitButton">Submit</button></a>
+                            </div>
+                            
+                            <div class="ModalInputBoxes" id="buttons">
+                                <a><button class="SubmitButton" type="reset">Reset</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+    
+        </div>
+    </div>
+
+    <script>
+
+        var modal = document.getElementById("myModal");
+
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+        
+
+
+        <footer class="Footer">
+            <ul class="MediaIcons">
+                <ul><a href="https://www.facebook.com/HeritageLanesStThomas" target="_blank"><img src="Media/facebook.png"></a></ul>
+                <ul><a href="https://www.instagram.com/heritagelanes/?hl=en" target="_blank"><img src="Media/instagram.png"></a></ul>
+                <ul><a href="https://www.youtube.com/channel/UC_u0et0Woh-NEiRZwpHOI3Q" target="_blank"><img src="Media/youtube.png"></a></ul>
+            </ul>
+    
+            <div class="FooterInfo">
+                <div class="FooterNumber">(519) 631-8500</div>
+                <div class="FooterEmail">Info@heritagelanes.ca</div>
+                <div class="FooterAddress">1213 Talbot St, St Thomas, ON</div>
+            </div>
+    
+            <div class="Hours">
+                <div class="HoursOfWeek">Tuesday
+                    <div class="HoursOfOpen">1:00 Pm - 9:00 Pm</div>
+                </div>
+                <div class="HoursOfWeek">Friday 
+                    <div class="HoursOfOpen">1:00 Pm - 10:00 Pm</div>
+                </div>
+                <div class="HoursOfWeek">Saturday
+                    <div class="HoursOfOpen">9:00 Am - 12:00 Pm</div>
+                </div>
+                <div class="HoursOfWeek Sunday">Sunday
+                    <div class="HoursOfOpen">1:00 Pm - 9:00 Pm</div>
+                </div>
+    
+            </div>
+    
+        </footer>
+
+    
+</body>
+
+</html>

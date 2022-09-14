@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleheaderfooter.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="formstyles.css">
+    <script src="script.js"></script>
+    <title>Heritiage Lanes</title>
+    <link rel="icon" type="image/x-icon" href="Media/FaviconLogo.png">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="NavigationElements" id="navigateElements">
+            <ul class=""><a href="index.html"><img src="Media/HeritageHeader.png"></a></ul>
+            <ul id="HeaderHeritage" class=""><a href="index.html">Heritage Lanes</a></ul>
+            <div class="listpop" id="listPop">
+                <ul class="navElementsMobile"><a href="activities.html" class="padding">Activities</a></ul>
+                <ul class="navElementsMobile"><a href="leagues.html" class="padding">Leagues</a></ul>
+                <ul class="navElementsMobile"><a href="menu.html" class="padding">Menu</a></ul>
+                <ul class="navElementsMobile"><a href="proShop.html" class="padding">Shop</a></ul>
+                <ul id="HeaderNumber" class="navElementsMobile">(519) 631-8500</ul>
+            </div>
+            <ul class="MenuPopout"><a href="javascript:void(0);" input type="image" onclick="MenuDropDown()"><img src="Media/MenuDropDown.png"></a></ul>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="a">
+    
+        <video autoplay muted loop class="HeritageLanesVideo">
+            <source src="Media/Heritage lanes background video.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+   <div class="ActivitiesIntro"><h2>Fun doesn't have to be pricey. Check this out.</h2></div>
+   
+   <div class="ActivitiesPricesWrapper">
+            <div class="HeritageInteriorPhoto"><img src="Media/HeritageLanesActivities.png"></div>
+            <div class="PricingCard">
+                <div class="PricingCardText">
+                    <h2 id="BowlingPricing">Bowling</h2>
+                    <h3>Regular Bowl: $4.25 / Game</h3>
+                    <h3 id="CosmicPrice">Cosmic Bowl: $4.50 / Game</h3>
+                    <h3>Adult Shoe Rental: $3.00</h3>
+                    <h3>Child Shoe Rental: $2.50</h3>
+                    <h3>2 Games & Shoe Rental: $11 (Regular Bowl, taxes incl)</h3>
+                    <h3>2 Games & Shoe Rental: $12 (Cosmic Bowl, taxes incl)</h3>
+                    <a href="mailto:info@heritagelanes.ca?subject=Questions"><button class="ActivitiesContactButton">Contact</button></a>
+                </div>
+            </div>
+        
+    </div>
+
+
+    <div class="ShortReview">
+        <div class="ReviewCenter">
+            <h2>"Had a fun time bowling with friends. Good price also!"</h2>
+            <p>-Kaylah</p>
+        </div>
+    </div>
+
+
+    <div class="ArcadeWrapper">
+        <div class="ArcadeFeaturesCard">
+            <div class="ArcadeText">
+                <h2 class="ArcadeElements">Video Arcade</h2>
+                <h3 class="ArcadeElements">Featuring</h3>
+                <br>
+                <ul>
+                    <li class="ArcadeElements">Pinball</li>
+                    <li class="ArcadeElements">Shooters</li>
+                    <li class="ArcadeElements">Foosball</li>
+                    <li class="ArcadeElements">Racing</li>
+                    <li class="ArcadeElements">Classic Games <br><br> & More!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="HeritageArcadePhoto"><img src="Media/HeritageArcadePhoto.png"></div>
+    </div>
+
+    <div class="SecondReview">
+        <div class="ReviewCenter">
+            <h2>"Fun games and fun arcade!!"</h2>
+            <p>-Allie</p>
+        </div>
+    </div>
+
+    <div class="PartyRoom">
+        <div class="PartyRoomImage">
+            <img src="Media/PartyRoom.png">
+        </div>
+
+        <div class="PartyRoomBackground">
+            <div class="PartyRoomText">
+                <h3 class="PartyHeaderText">Let us help design a package that works for you!</h3>
+
+                <h4 class="PartyInfoText">Hold a fundraiser for your favourite charity, sports team, school event or anything else
+                    you can think of. We offer a number of options to keep your guests busy and entertained. In 
+                    addition to our Cosmic Bowling, we offer a large room with large tables for raffles, cakes, as 
+                    well as an arcade with some racing and shooter games, along with some classic pinball games, to
+                    name a few.
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="SpecialEventsHeader">Special Events<br>Click on the images below to find out more!</div>
+
+    <div class="SpecialEvents">
+
+        <div class="SE">Kid's Parties
+            <div><input type="image" id="KidsParties" src="Media/BookParty.png" onclick="KidsParties()"></div>
+            <img src="Media/ArrowDown.png">
+        </div>
+
+        <div class="SE">Meetings & Nights Out
+            <div><input type="image" id="NightsOut" src="Media/NightsOut.png" onclick="NightsOut()"></div>
+            <img src="Media/ArrowDown.png">
+        </div>
+
+        <div class="SE">Build - An - Event
+            <div><input type="image" id="BuildEvent" src="Media/BuildEvent.png" onclick="BuildEvent()"></div>
+            <img src="Media/ArrowDown.png">
+        </div>
+
+    </div>
+
+
+    <div id="BuildEventInfo" style="display: none;">Build Your Event!
+        <div><p>Use the form below as a starting point for building your event! We will be in touch to further customize your event to meet your needs and create a unique expereince.</p></div>
+        <div class="FormCenter">
+            <form action="mailto:info@heritagelanes.ca?subject=Heritage Lanes Event Booking" method="post" enctype="text/plain">
+            <h2 class="FormHeader">Below is a list of activities you can select!</h2>
+            
+        
+            <div class="textBoxes">
+                <input type="text" name="Name" class="name" placeholder="Name">
+           
+                <input type="text" name="Phone Number" class="phone" placeholder="Phone Number">
+           
+                <input type="email" name="email" class="email" placeholder="Email">
+            </div>
+        
+        <div class="radiobuttons">
+            Participants:
+            <input type="number" name="Participants" class="participants1" placeholder="0" >
+        
+                <div>Bowling
+                    <input type="checkbox" name="Bowling" class="bowling">
+                </div>
+            
+                <div>Arcade
+                    <input type="checkbox" name="Arcade" class="arcade">
+                </div>
+            
+                <div>Dining Hall
+                    <input type="checkbox" name="DiningHall" class="diningHall">
+                </div>
+        
+                <div>Food   
+                    <input type="checkbox" name="Food" class="food">
+                </div>
+        </div>
+            <div class="radiobuttons2">
+        
+                <div class="HelpText">
+                   <h2>Need something not listed? Let us know.</h2>
+                </div>
+        
+                <div>Music
+                    <input type="checkbox" name="Music" class="music">
+                </div>
+        
+                <div>Videos
+                    <input type="checkbox" name="Videos" class="videos">
+                </div>
+        
+                <div>Projectors
+                    <input type="checkbox" name="Projectors" class="projectors">
+                </div>
+        
+                <div>Drinks
+                    <input type="checkbox" name="Drinks" class="drinks">
+                </div>
+            </div>
+        
+            <div class="CommentsAndButtons">
+                
+                <div class="AdditionalCommentsWrapper">
+                    <textarea id="AdditionalComments" name="AdditionalComments" rows="6" cols="50" placeholder="Let us know what you have in mind!"></textarea>
+                </div>
+        
+                <div class="FormButtonsWrapper">
+                    <div class="SubmitButtonWrapper">
+                        <input type="submit" value="Send" class="SubmitButton">
+                    </div>
+        
+                    <div class="ResetButtonWrapper">
+                        <input type="reset" class="ResetButton">
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="NightsOutInfo" style="display: none;">Work Meetings & Parties
+        <div><p>With plenty of space available and projectors ready for use, we can provide a fresh enviroment for brainstorming sessions or collaborations. Stay after for some food
+            and bowling! We also can host christmas parties or any other work related events. Let's collaborate and create a great expereince.
+        </p></div>
+    </div>
+
+    <div id="KidsPartiesInfo" style="display: none;">Kid's Parties
+        <div><p>We offer two different Cosmic Birthday Party Packages.<br>If black lights, lasers and great music are what you're looking for, this party is for you!</p></div>
+        <div><p>Our music system provides many different genres of music, including Country, Rock, Dancing, Line Dancing, and much more!<br>"Mom-approved" music options are also
+            readily available.
+        </p></div>
+        <div><img src="Media/DealA.png"></div>
+        <div><img src="Media/DealB.png"></div>
+    </div>
+
+
+    <footer class="Footer">
+        <ul class="MediaIcons">
+            <ul><a href="https://www.facebook.com/HeritageLanesStThomas" target="_blank"><img src="Media/facebook.png"></a></ul>
+            <ul><a href="https://www.instagram.com/heritagelanes/?hl=en" target="_blank"><img src="Media/instagram.png"></a></ul>
+            <ul><a href="https://www.youtube.com/channel/UC_u0et0Woh-NEiRZwpHOI3Q" target="_blank"><img src="Media/youtube.png"></a></ul>
+        </ul>
+
+        <div class="FooterInfo">
+            <div class="FooterNumber">(519) 631-8500</div>
+            <div class="FooterEmail">Info@heritagelanes.ca</div>
+            <div class="FooterAddress">1213 Talbot St, St Thomas, ON</div>
+        </div>
+
+        <div class="Hours">
+            <div class="HoursOfWeek">Tuesday
+                <div class="HoursOfOpen">1:00 Pm - 9:00 Pm</div>
+            </div>
+            <div class="HoursOfWeek">Friday 
+                <div class="HoursOfOpen">1:00 Pm - 10:00 Pm</div>
+            </div>
+            <div class="HoursOfWeek">Saturday
+                <div class="HoursOfOpen">9:00 Am - 12:00 Pm</div>
+            </div>
+            <div class="HoursOfWeek Sunday">Sunday
+                <div class="HoursOfOpen">1:00 Pm - 9:00 Pm</div>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

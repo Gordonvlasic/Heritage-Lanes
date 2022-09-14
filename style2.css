@@ -1,0 +1,171 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    opacity: 1;  
+}
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: black  ;
+}
+::-webkit-scrollbar-track{
+    opacity: .5;
+}
+
+.HeritageLanesVideo{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 5rem;
+    top: 4%;
+    left: 0%;
+    filter: blur(15px);
+    filter: grayscale(10%);
+}
+.ActivitiesIntro{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.ActivitiesPricesWrapper{
+    display: flex;
+
+}
+.PricingCard{
+width: 100%;
+height: 958px;
+background-color: #235789
+}
+.PricingCardText{
+  text-align: center;
+  line-height: 5rem;
+}
+#BowlingPricing{
+    text-align: center;
+}
+#CosmicPrice{
+    background: linear-gradient(to right, #AED343 0%, #00FF00 37%, #FF9A02 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ActivitiesContactButton{
+    background-color: #CB435B;
+    border: none;
+    text-align: center;
+    width: 290px;
+    height: 75px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+button:hover {
+    color: white;
+    opacity: .8;
+    
+}
+.ShortReview{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.ArcadeWrapper{
+display: flex;
+}
+.ArcadeFeaturesCard{
+    width: 100%;
+    height: 958px;
+    background: rgba(82, 82, 82, .4);
+}
+.ArcadeText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 3rem;
+    font-size: 26px;
+}
+.ArcadeElements{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.SecondReview{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.ReviewCenter{
+    text-align: center;
+}
+.PartyRoomBackground{
+    background-color: #235789;
+    height: 500px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.PartyRoomImage{
+    padding-bottom: 0%;
+    margin-bottom: -1%;
+}
+.PartyRoomText{
+    padding-top: 0%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.PartyHeaderText{
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.PartyInfoText{
+    padding-top: 5rem;
+    font-size: 20px;
+    padding: 3rem;
+}
+.SpecialEventsHeader{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.SpecialEvents{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.SE{
+    text-align: center;
+}
+.SE:hover{
+    opacity: 0.5;
+}
+.KidsPartiesInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.FormCenter{
+    display: flex;
+    justify-content: space-around;
+}
+textarea{
+    resize: none;
+}

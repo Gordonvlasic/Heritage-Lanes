@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="stylemodal.css">
+
+<div class="Modal" id="myModal">
+    <div class="ModalContent">
+        
+        <div class="ModalTopbar">
+            <div><img src="../LogoModal.png"></div>
+
+            <div>
+                <h2 class="HeaderText">Heritage Lanes<br>Youth League</h2>
+            </div>
+
+            <div><input type="image" src="../X.png" onclick="KillModal()"></div>
+
+
+        </div>
+        <div class="ModalTextContent">
+            <h4><u>Includes</u></h4>
+            <br>
+            <p class="ModalBlurb">Coaching for everyone, free "supervised" weekly practice sessions,
+                Discount open play rates for all league members, awards program for 
+                bowler achievements, tournaments, custom heritage lane jersey's, and much more!
+            </p>
+
+            <p>$35.00 for registration</p>
+            <p>$15.00 per week for regular bowlers</p>
+            <p>$10.00 per week for bumper bowlers</p>
+        </div>
+
+        <div>
+            <form action="mailto:info@heritagelanes.ca?subject=Sign Up For Youth League" method="post" enctype="text/plain">
+                <div class="ModalInputs">
+                    <div class="ModalInputBoxes">
+                        Name:
+                        <input type="text" name="Name">
+                    </div>
+
+                    <div class="ModalInputBoxes">
+                        Email:
+                        <input type="text" name="Email">
+                    </div>
+
+                    <div class="ModalInputBoxes">
+                        Phone:
+                        <input type="text" name="Phonenumber">
+                    </div>
+
+                    <div class="ModalInputBoxes" id="buttons">
+                        <a><button class="SubmitButton">Submit</button></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,22 @@
+body, html {
+    margin: 0%;
+    padding: 0%;
+}
+.ComingSoon{
+    padding-top: 20rem;
+    padding-bottom: 26rem;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: black  ;
+}
+::-webkit-scrollbar-track{
+    opacity: .5;
+}

@@ -1,0 +1,94 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    opacity: 1;  
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: black  ;
+}
+::-webkit-scrollbar-track{
+    opacity: .5;
+}
+.LeaguesIntro{
+    padding-top: 13rem;
+}
+.LeaguesMainPhoto{
+    padding-top: 5rem;
+}
+.LeagueCard{
+display: flex;
+padding-bottom: 4rem;
+width: 80%;
+justify-content: center;
+margin:0 auto;
+}
+.LeagueName{
+    background-color: #016FB9;
+    text-align: center;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.LeagueDescription{
+    background-color: rgba(1, 111, 185, .4);
+    text-align: center;
+    padding: 2rem;
+}
+.LeagueTimes{
+    padding-top: 1rem;
+}
+.SignUp{
+    display: flex;
+    background-color: rgba(1, 111, 185, .4);
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+.SignUpButton{
+    background-color: #CB435B;
+    border: none;
+    text-align: center;
+    width: 225px;
+    height: 75px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+
+}
+button:hover{
+    color: white;
+    opacity: .8;
+}
+.HeritageLanesYouthHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+.YouthLeagueMissionStatement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+}
+.IntroHeader, .IntroParagraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
