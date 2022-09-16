@@ -16,7 +16,20 @@ padding-top: 1rem;
 }
 .listpop{
     display: flex;
-
+    align-items: center;
+    justify-content: space-around;
+}
+.MenuCloseAdd{
+    top: 0;
+    position: absolute;
+    right: 5px; 
+}
+.MenuClose{
+    top: 0;
+    position: absolute;
+    right: 5px;
+    display: none;
+   
 }
 .navbar
 {
@@ -111,11 +124,13 @@ width: 100%;
     .NavigationElements a:not(:first-child) {display: none;}
     .NavigationElements{
         display: flex;
+        flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
     #HeaderHeritage{
-        padding-right: 0;
+        padding-right: 10px;
+        padding-bottom: 1rem;
         display: flex;
         
     }
@@ -129,6 +144,8 @@ width: 100%;
     }
     .listpop{
         display: none;
+        align-items: center;
+        justify-content: space-around;
         
     }
     .responsive
@@ -140,4 +157,5 @@ width: 100%;
 .responsive{
 display: flex;
 flex-direction: column;
+align-items: center;
 }

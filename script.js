@@ -61,18 +61,36 @@ function KillModal(){
 function MenuDropDown()
 {
   var x = document.getElementById("listPop");
+  var z = document.getElementById("MenuPopoutLogo");
   if (x.className === "listpop") 
   {
     x.className += " responsive";
+    z.style.display = "none";
   } 
   else 
   {
     x.className = "listpop";
+    z.style.display = "flex";
   }
 }
-$(document).ready(function(){
-  if(window.innerWidth < 768){
-    $('.listpop').addClass('listpop').removeClass('responsive');
+function MenuClose(){
+  var x = document.getElementById("MenuCloseDiv");
+  if (x.className === "MenuClose") {
+    x.style.display = "block";
   }
+  else
+  {
+    x.className = "MenuClose"
+    x.style.display = "none"
+  }
+}
+function MenuClose1(){
+  var x = document.getElementById("MenuCloseDiv");
+  var y = document.getElementById("listPop");
+  var z = document.getElementById("MenuPopoutLogo");
 
-});
+  y.className = "listpop";
+  x.style.display = "none";
+  z.style.display = "flex";
+
+}

@@ -12,14 +12,6 @@
     <title>Heritage Lanes</title>
     <link rel="icon" type="image/x-icon" href="Media/FaviconLogo.png">
     <script src="script.js"></script>
-    <script>
-         $(document).ready(function(){
-            if(window.innerWidth < 768){
-            $('.listpop').addClass('listpop').removeClass('responsive');
-            }
-        
-        });
-    </script>
 </head>
 
 <body>
@@ -39,8 +31,9 @@
                         <ul class="navElementsMobile"><a href="proShop.html" class="padding">Shop</a></ul>
                         <ul id="HeaderNumber" class="navElementsMobile">(519) 631-8500</ul>
                     </div>
-                <ul class="MenuPopout"><a href="javascript:void(0);" input type="image" onclick="MenuDropDown()"><img src="Media/MenuDropDown.png"></a></ul>
+                <ul class="MenuPopout"><a href="javascript:void(0);" input type="image" onclick="MenuDropDown(); MenuClose()"><img src="Media/MenuDropDown.png" id="MenuPopoutLogo"></a></ul>
                 </ul>
+                <ul class="MenuClose" id="MenuCloseDiv"><a href="javascript:void(0);" input type="image" onclick="MenuClose1()"><img src="Media/X.png" id="MenuCloseLogo"></a></ul>
             </div>
         </nav>
     </header>
@@ -75,7 +68,7 @@
         <div class="FirstReview">
             <p>"Outstanding service excellent management 
                 coupled with very kind people"</p> 
-            -Szajen7
+            -Szajen
         </div>
         
         <div class="SecondReview">
@@ -102,7 +95,7 @@
         <div class="FoodDrinksWrapper">
             <div>
                 <img class="FoodDrinks" src="Media/Hamburger.png">
-                <div class="MenuButton"><a href=""><button class="Button1" onclick="">Menu</button></a></div>
+                <div class="MenuButton"><a href="menu.html"><button class="Button1" onclick="">Menu</button></a></div>
             </div>
             
         </div>
@@ -122,6 +115,39 @@
                 <div class="PricingBookingButton"><a href="activities.html" id="inside"><button class="Button1">Pricing & Booking</button></a></div>
             </div>
         </div>
+
+    <div class="QuickLinksMobile">
+
+        <div class="HamburgerMobile">
+            <div>
+                <img class="HamburgerMobile" src="Media/HamburgerMobile.png">
+                <div class="HamburgerMobileButton">
+                    <a href="menu.html"><button class="Button2">Menu</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="LeaguesMobile">
+            <div>
+                <img class="LeaguesMobile" src="Media/LeaguesProgramsMobile.png">
+                <div class="LeaguesMobileButton">
+                    <a href="leagues.html"><button class="Button2">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ActivitiesMobile">
+            <div>
+                <img class="ActivitiesMobile" src="Media/PartiesEventsMobile.png">
+                <div class="ActivitiesMobileButton">
+                    <a href="activities.html"><button class="Button2">Pricing & Booking</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 
 
 
