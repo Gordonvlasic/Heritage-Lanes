@@ -47,6 +47,7 @@ display: flex;
     justify-content: space-around;
     align-items: center;
     padding-right: 3rem;
+    padding-right: 8%;
 }
 .navbar a{
     padding: auto;
@@ -126,7 +127,6 @@ width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-bottom: 1rem;
     }
     #HeaderHeritage{
         padding-right: 10px;
