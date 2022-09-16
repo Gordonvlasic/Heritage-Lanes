@@ -58,6 +58,7 @@ background-color: #235789
 #CosmicPrice{
     background: linear-gradient(to right, #AED343 0%, #00FF00 37%, #FF9A02 100%);
     -webkit-background-clip: text;
+    background-clip: n;
     -webkit-text-fill-color: transparent;
 }
 
@@ -168,4 +169,77 @@ display: flex;
 }
 textarea{
     resize: none;
+}
+.ActivitiesPricesMobile{
+    display: none;
+}
+.ArcadeMobile{
+    display: none;
+}
+.MeetingSpacesMobile{
+    display: none;
+}
+@media only screen and (max-width: 768px)
+{
+.ActIntro{
+    text-align: center;
+}
+.ActivitiesPricesWrapper{
+    display: none;
+}
+.ActivitiesPricesMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.PricingCardMobile{
+    background: rgba(82, 82, 82, .4);
+    text-align: center;
+}
+.ArcadeWrapper{
+    display: none;
+}
+.ArcadeMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ArcadeMobileText{
+    background: rgba(82, 82, 82, .4);
+    text-align: center;
+    padding: 2rem;
+}
+.PartyRoom, .PartyRoomBackground, .SpecialEventsHeader, .SpecialEvents {
+    display: none;
+}
+.MeetingSpacesMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+#Meetingspaceimg{
+    padding-bottom: 1rem;
+}
+#MeetingSpaceInfo{
+    padding: 2rem;
+}
+#KidsPartiesInfo, #NightsOutInfo, #BuildEventInfo{
+    display: none;
+}
+}
+.Button3{
+    background-color: #CB435B;
+    border: none;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+.ContactMobile{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
