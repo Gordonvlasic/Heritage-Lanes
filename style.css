@@ -262,7 +262,7 @@ button:hover {
     .ReviewWrapper{
         grid-template-columns: repeat(1,3fr);
         grid-gap: 2rem;
-        padding-bottom: 7rem;
+        height: auto;
         padding-left: 5rem;
         padding-right: 5rem;
     }
@@ -276,7 +276,6 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 20rem;
         padding-bottom: 5rem;
     }
     .HamburgerMobile, .LeaguesMobile, .ActivitiesMobile{
