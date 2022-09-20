@@ -1,0 +1,158 @@
+body
+{
+    background-image: url('Media/BigTest.png');
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    overflow-x: hidden;
+}
+#HeaderHeritage{
+    padding-right: 100px;
+
+}
+#HeaderNumber{
+padding-left: 12rem;
+display: flex;
+padding-top: 1rem;
+}
+.listpop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.MenuCloseAdd{
+    top: 0;
+    position: absolute;
+    right: 5px; 
+}
+.MenuClose{
+    top: 0;
+    position: absolute;
+    right: 5px;
+    display: none;
+   
+}
+.navbar
+{
+background-color: #016fb9;
+overflow: hidden;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+display: flex;
+}
+.NavigationElements
+{
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    padding: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-top: 1rem;
+    display: flex;
+
+}
+.navbar a:hover{
+    color: red;
+}
+.active{
+    background-color: red;
+}
+
+
+.Footer
+{
+background-color: #016fb9;
+bottom: 0;
+margin-bottom: 0;
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+.Hours
+{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.HoursOfWeek{
+    display: flex;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.Sunday{
+    padding-bottom: 15px;
+}
+.HoursOfOpen{
+    padding-left: 1rem;
+}
+.MediaIcons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+.FooterInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.MenuPopout{
+    display: none;
+}
+.padding{
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+}
+@media only screen and (max-width: 768px) {
+ 
+    .MenuPopout{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+    }
+    .NavigationElements a:not(:first-child) {display: none;}
+    .NavigationElements{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #HeaderHeritage{
+        padding-right: 10px;
+        padding-bottom: 1rem;
+        display: flex;
+        
+    }
+    #HeaderNumber{
+        display: none;
+    }
+    .navElementsMobile{
+        padding-bottom: 1rem;
+        flex-direction: column;
+        
+    }
+    .listpop{
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .responsive
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.responsive{
+display: flex;
+flex-direction: column;
+align-items: center;
+}

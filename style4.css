@@ -12,3 +12,21 @@ body, html {
 ::-webkit-scrollbar-track{
     opacity: .5;
 }
+.MenuHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.OnionRingsWrapper{
+    display: flex;
+}
+.HamburgersFriesWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.DrinksWrapper{
+    display: flex;
+}
+.BarBeveragesWrapper{
+    display: flex;
+    justify-content: space-between;
+}

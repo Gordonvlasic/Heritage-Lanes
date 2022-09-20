@@ -19,26 +19,107 @@
     <body>
 
         <header>
-            <nav class="navbar">
-                <div class="NavigationElements">
-                    <ul class="NavigationElements" id="navigateElements">
-                    <ul class=""><a href="index.html"><img src="Media/HeritageHeader.png"></a></ul>
-                    <ul id="HeaderHeritage" class=""><a href="index.html">Heritage Lanes</a></ul>
-                        <div class="listpop" id="listPop">
-                            <ul class="navElementsMobile"><a href="activities.html" class="padding">Activities</a></ul>
-                            <ul class="navElementsMobile"><a href="leagues.html" class="padding">Leagues</a></ul>
-                            <ul class="navElementsMobile"><a href="menu.html" class="padding">Menu</a></ul>
-                            <ul class="navElementsMobile"><a href="proShop.html" class="padding">Shop</a></ul>
-                            <ul id="HeaderNumber" class="navElementsMobile">(519) 631-8500</ul>
-                        </div>
-                    <ul class="MenuPopout"><a href="javascript:void(0);" input type="image" onclick="MenuDropDown(); MenuClose()"><img src="Media/MenuDropDown.png" id="MenuPopoutLogo"></a></ul>
-                    </ul>
-                    <ul class="MenuClose" id="MenuCloseDiv"><a href="javascript:void(0);" input type="image" onclick="MenuClose1()"><img src="Media/X.png" id="MenuCloseLogo"></a></ul>
-                </div>
-            </nav>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars" id="MenuIcon"></i>
+                </label>
+                <label class="logo"><img src="Media/HeritageHeader.png" id="HeaderLogo"></label>
+                <ul class="Actives">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="activities.html">Activities</a></li>
+                  <li><a href="leagues.html">Leagues</a></li>
+                  <li><a class="active" href="menu.html">Menu</a></li>
+                  <li><a href="proShop.html">Shop</a></li>
+                  <li id="HeritagePhoneNumber">519-631-8500</li>
+                </ul>
+              </nav>
         </header>
 
+        
+        
+        
+        <div class="MenuHeader">
+            <img src="media/HamburgerMenu.svg">
+        </div>
 
+        <div class="OnionRingsWrapper">
+
+            <div><img src="media/OnionRings.svg"></div>
+
+            <div>
+                <h2>Appetizers</h2>
+                <p>Golden Onion Rings -------------------------------------------- $6.00</p>
+                <p>Deep Fried Mushrooms ------------------------------------ $6.75<br>With Ranch Sauce</p>
+                <p>Hand Cut Fries ----------------------------------------- $5.00</p>
+                <p>Cheesy Mozzarella Sticks -------------------------------------------- $7.25<br>7 Cheesy Sticks</p>
+            </div>
+
+        </div>
+
+        <div class="HamburgersFriesWrapper">
+
+
+            <div>
+                <div>
+                    <h2>Burgers & Handhelds</h2>
+                    <p>Add fries to anything for $3.00</p>
+                </div>
+
+                <p>Fresh Grilled 6oz Hamburger ------------------------------------------ $7.25<br>Add Cheese for $1</p>
+                <p>Heritage Saucy Chicken Wings ----------------------------------------- $11.25 / Lb<br>BBQ or Honey Garlic</p>
+                <p>Homemade Chicken Fingers --------------------------------------------- $7.25</p>
+                <p>Heritage 12 Slice Personal Pizza ------------------------------------- $19.99<br>Inqure for Toppings</p>
+
+            </div>
+
+            <div><img src="media/HamburgerFries.svg"></div>
+
+        </div>
+
+
+        <div class="DrinksWrapper">
+            <div><img src="Media/Drinks.svg"></div>
+
+            <div>
+                <h2>Beverages - Non Alcoholic</h2>
+                <p>Pop (Can) ------------------------------------------------------- $2.00</p>
+                <p>Pop (Bottle) ---------------------------------------------------- $3.00</p>
+                <p>Water ----------------------------------------------------------- $1.50</p>
+                <p>Coffee / Tea ---------------------------------------------------- $1.75</p>
+                <p>Juice (apple, fruit, kool-aid) ----------------------------------------------- $1.50</p>
+                <p>Jones Soda ------------------------------------------------------ $3.00</p>
+                <p>Gatorade -------------------------------------------------------- $3.00</p>
+                <p>Dad's ----------------------------------------------------------- $3.00</p>
+            </div>
+
+        </div>
+
+        <div class="BarBeveragesWrapper">
+
+
+            <div>
+               
+                <h2>Bar Prices</h2>
+                   
+                <p>Heritage Lanes (Tall Boy) ------------------------------------------ $6.00</p>
+                <p>Domestic Beer ----------------------------------------- $5.00</p>
+                <p>Premium Beer --------------------------------------------- $5.25</p>
+                <p>Corona (330 ml) ------------------------------------ $5.65</p>
+                <p>Liquor Shot (1 oz) ------------------------------------------ $5.50</p>
+                <p>Coolers ----------------------------------------- $6.00</p>
+                <p>Large Coolers --------------------------------------------- $6.50</p>
+                <p>Wine (6oz) --------------------------------------------- $8.00</p>
+
+            </div>
+
+            <div><img src="media/HamburgerFries.svg"></div>
+
+        </div>
+        
+        
+        
+        
         <footer class="Footer">
             <ul class="MediaIcons">
                 <ul><a href="https://www.facebook.com/HeritageLanesStThomas" target="_blank"><img src="Media/facebook.png"></a></ul>
