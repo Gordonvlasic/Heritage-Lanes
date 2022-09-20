@@ -1,0 +1,13 @@
+.FAQWrapper{
+    width: 316px;
+    text-align: center;
+}
+.BigWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+details{
+    background-color: #016FB9;
+}

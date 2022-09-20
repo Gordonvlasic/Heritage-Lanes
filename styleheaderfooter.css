@@ -7,6 +7,12 @@
     box-sizing: border-box;
     color: white;
   }
+  p{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 26px;
+  }
   body{
     font-family: 'Montserrat Alternates', sans-serif;
     background-image: url('Media/BigTest.png');
@@ -50,7 +56,7 @@
   #HeaderLogo{
     padding-top: 1rem;
   }
-  a.active,a:hover{
+  nav a.active,nav a:hover{
     background-color: red;
     transition: .5s;
   }
@@ -66,6 +72,9 @@
   .Actives{
     padding-top: 1rem;
     padding-right: 10%;
+  }
+  button{
+    font-size: 20px;
   }
   #check{
     display: none;
@@ -105,6 +114,10 @@
     a:hover,a.active{
       background: none;
       color: #0082e6;
+    }
+    nav a.active,nav a:hover{
+      background-color: #2f5f8e;
+      transition: .5s;
     }
     #check:checked ~ ul{
       left: 0;
