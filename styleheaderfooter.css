@@ -70,7 +70,7 @@
   #check{
     display: none;
   }
-  @media (max-width: 1200px){
+  @media (max-width: 1300px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
@@ -79,7 +79,7 @@
       font-size: 16px;
     }
   }
-  @media (max-width: 1200px){
+  @media (max-width: 1300px){
     .checkbtn{
       display: block;
     }
