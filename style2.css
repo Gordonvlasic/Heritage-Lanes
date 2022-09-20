@@ -153,6 +153,10 @@ display: flex;
 .ActiveTextNightsOut{
     padding: 5rem;
 }
+.DealsImg img{
+    width: 90%;
+    height: auto;
+}
 .SpecialEvents{
     display: flex;
     justify-content: space-around;

@@ -56,7 +56,7 @@
   #HeaderLogo{
     padding-top: 1rem;
   }
-  nav a.active,nav a:hover{
+  nav a.active, nav a:hover{
     background-color: red;
     transition: .5s;
   }
