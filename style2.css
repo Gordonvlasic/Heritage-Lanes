@@ -146,6 +146,10 @@ display: flex;
     padding-bottom: 3rem;
     text-align: center;
 }
+.DealsImg img{
+    width: 90%;
+    height: auto;
+}
 .SpecialEvents{
     display: flex;
     justify-content: space-around;
