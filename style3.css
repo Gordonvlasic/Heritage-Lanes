@@ -28,6 +28,7 @@ html{
 }
 .LeaguesMainPhoto img{
     height: auto;
+    padding-top: 14px;
     width: 100%;
 }
 .LeagueCard{
