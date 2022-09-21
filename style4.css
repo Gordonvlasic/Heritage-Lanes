@@ -57,5 +57,57 @@ body, html {
 .BeveragesText{
     padding-top: 3rem;
     padding-left: 5rem;
+}
+.ImageWrapper{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.AppetizersWrapper, .BurgersAndHandheldsWrapper, .BeveragesMobileWrapper, 
+.AlcoholicBeveragesWrapper{
+    text-align: center;
+    display: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.BeveragesAlign{
+    display: flex;
+    justify-content: space-around;
+}
+.WrapperDrinks{
+    display: flex;
+    justify-content: space-around;
+}
+.ImageWrapper img{
+    height: auto;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.FoodClassHeader{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .MenuHeader, .OnionRingsWrapper, .HamburgersFriesWrapper,
+    .DrinksWrapper, .BarBeveragesWrapper {
+        display: none;
     
+    }
+    .AppetizersWrapper, .BurgersAndHandheldsWrapper, .BeveragesMobileWrapper,
+    .AlcoholicBeveragesWrapper{
+        display: block;
+    }
+    .ImageWrapper{
+        display: flex;
+    }
+}
+u{
+    padding: 6px;
+    background-color: #016FB9;
+}
+
+p{
+    padding-bottom: 6px;
 }
