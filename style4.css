@@ -3,20 +3,20 @@ body, html {
     padding: 0%;
     background-color: black;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 0;
     background: transparent;
-}
+} */
 p{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-::-webkit-scrollbar-thumb{
+/* ::-webkit-scrollbar-thumb{
     background: black  ;
 }
 ::-webkit-scrollbar-track{
     opacity: .5;
-}
+} */
 .MenuHeader{
     display: flex;
     justify-content: space-around;
