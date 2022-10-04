@@ -111,3 +111,30 @@ u{
 p{
     padding-bottom: 6px;
 }
+.Appetizers{
+    display: flex;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+}
+.Burgers{
+    display: flex;
+
+}
+.imageResize{
+    width: 100%;
+    height: auto;
+}
+.BurgerMiddle{
+    text-align: center;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+.Burgies{
+    display: flex;
+}
