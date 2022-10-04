@@ -20,7 +20,10 @@ body, html{
 ::-webkit-scrollbar-track{
     opacity: .5;
 } */
-
+.imagefix{
+    width: 100%;
+    height: auto;
+}
 .HeritageLanesVideo{
     object-fit: cover;
     width: 100vw;
