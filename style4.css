@@ -1,10 +1,15 @@
 body, html {
     margin: 0%;
     padding: 0%;
+    background-color: black;
 }
 ::-webkit-scrollbar{
     width: 0;
     background: transparent;
+}
+p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 ::-webkit-scrollbar-thumb{
     background: black  ;
@@ -15,6 +20,12 @@ body, html {
 .MenuHeader{
     display: flex;
     justify-content: space-around;
+    padding-top: 6rem;
+}
+.AppetizerHeader{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .OnionRingsWrapper{
     display: flex;
@@ -90,10 +101,16 @@ padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 768px){
-    .MenuHeader, .OnionRingsWrapper, .HamburgersFriesWrapper,
-    .DrinksWrapper, .BarBeveragesWrapper {
+    .MenuHeader, .AppetizerHeader, .Appetizers, .Burgers, .Burgies {
         display: none;
+        
     
+    }
+    .down{
+        display: none;
+    }
+    .go{
+        display: none;
     }
     .AppetizersWrapper, .BurgersAndHandheldsWrapper, .BeveragesMobileWrapper,
     .AlcoholicBeveragesWrapper{
@@ -117,9 +134,15 @@ p{
 .down{
     display: flex;
     flex-direction: column;
-    border-style: solid;
     width: 100%;
     text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #D9d9d9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .Burgers{
     display: flex;
@@ -137,4 +160,13 @@ p{
 }
 .Burgies{
     display: flex;
+}
+.border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D9d9d9;
+}
+.padThis{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
