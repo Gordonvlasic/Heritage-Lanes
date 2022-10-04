@@ -81,3 +81,6 @@ color: white;
 input{
 text-align: left;
 }
+input, select, textarea{
+    color: #000;
+}
