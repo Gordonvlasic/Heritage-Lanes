@@ -7,6 +7,9 @@
     box-sizing: border-box;
     color: white;
   }
+  .fa-solid {
+    padding-right: 5px;
+  }
   p{
     font-size: 18px;
   }
