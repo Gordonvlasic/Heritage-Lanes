@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+  -export DEPLOYPATH=/Heritage-Lanes-2
