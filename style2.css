@@ -58,6 +58,7 @@ background-color: #235789
     text-align: center;
 }
 #CosmicPrice{
+    padding-top: 3%;
     background: linear-gradient(to right, #AED343 0%, #00FF00 37%, #FF9A02 100%);
     -webkit-background-clip: text;
     background-clip: n;
@@ -196,9 +197,10 @@ textarea{
 .ActIntro{
     text-align: center;
 }
-.ActivitiesPricesWrapper{
+.flipcards  {
     display: none;
 }
+
 .ActivitiesPricesMobile{
     display: flex;
     flex-direction: column;

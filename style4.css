@@ -147,7 +147,7 @@ p{
 }
 .Burgers{
     display: flex;
-
+    justify-content: space-around;
 }
 .imageResize{
     width: 100%;

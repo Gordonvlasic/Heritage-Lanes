@@ -46,8 +46,8 @@ body, html{
 }
 #OurMissionP{
     padding-top: 1rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
 }
 #OurMissionTitle{
@@ -165,43 +165,7 @@ button:hover {
 
 
 
-.Footer
-{
-    background-color: #016fb9;
-    bottom: 0;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-around;
-}
-.Hours
-{
-    display: flex;
-    flex-direction: column;
-    padding-right: 50px;
-}
-.HoursOfWeek{
-    display: flex;
-    padding-left: 3rem;
-    padding-top: 1rem;
-}
-.Sunday{
-    padding-bottom: 15px;
-}
-.HoursOfOpen{
-    padding-left: 1rem;
-}
-.MediaIcons
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2rem;
-}
-.FooterInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+
 .QuickLinksMobile{
     display: none;
 }
