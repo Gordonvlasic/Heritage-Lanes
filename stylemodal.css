@@ -15,7 +15,10 @@ body, html{
     overflow: auto; 
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
-    color: white;
+    color: black;
+}
+#one, #two, #three {
+  color: black;
 }
 .ModalContent{
     z-index: 1;
